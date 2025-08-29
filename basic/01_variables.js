@@ -16,7 +16,7 @@ console.log(accountId);
 
 /*
 Prefer not to use var for variable declaration
-because of issue with block scope 
+because of issue with block scope and functional scope
 */
 
 console.table([accountId, accountEmail, accountPassword, accountCity, accountState]);
